@@ -17,7 +17,7 @@ const SectionBackgroundImg = (props) => {
         maxHeight: `${MAX_FEATURE_HEIGHT}px`,
       }}
     >
-      <h2>{props.feature.name}</h2>
+      <h2 className="heading">{props.feature.name}</h2>
       <p>{props.feature.text}</p>
     </div>
   );

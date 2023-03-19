@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -6,7 +8,9 @@ const Footer = () => {
       <img src="/images/icon-instagram.svg" alt="instagram" />
       <img src="/images/icon-twitter.svg" alt="twitter" />
       <img src="/images/icon-pinterest.svg" alt="pinterest" />
-      About Services Projects
+      <Link to="/">About</Link>
+      <Link to="/">Services</Link>
+      <Link to="/">Projects</Link>
     </div>
   );
 };

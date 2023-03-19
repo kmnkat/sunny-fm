@@ -1,0 +1,61 @@
+@use './variables' as var;
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  font-size: var.$font-size-body;
+  font-weight: var.$font-weight-barlow;
+  font-family: "Barlow", Tahoma, sans-serif;
+  color: var.$secondary-blue-grayish-dark;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+}
+
+.motto {
+  text-transform: uppercase;
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  font-weight: var.$font-weight-fraunces-bold;
+  font-size: 40px;
+  color: var.$secondary-white;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.heading {
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  font-weight: var.$font-weight-fraunces-bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var.$secondary-blue-grayish-very-dark;
+  &-secondary {
+    text-transform: uppercase;
+    font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+    font-size: 1rem;
+    letter-spacing: 4.2px;
+  }
+}
+
+.button-text {
+  font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+  font-weight: var.$font-weight-fraunces-bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.addnotation {
+  &-big {
+    font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+    font-weight: var.$font-weight-fraunces-bold;
+    font-size: 18px;
+    color: var.$secondary-blue-grayish-very-dark;
+  }
+  &-small {
+    font-size: 14px;
+    color: var.$secondary-blue-grayish;
+    letter-spacing: -0.1px;
+  }
+}

@@ -16,7 +16,7 @@ const HeroSection = (props) => {
         maxHeight: "640px",
       }}
     >
-      <h1>{props.title}</h1>
+      <h1 className="motto">{props.title}</h1>
       <img src="/images/icon-arrow-down.svg" alt="arrow" />
     </div>
   );

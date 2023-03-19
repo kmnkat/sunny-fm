@@ -7,8 +7,10 @@ const Testimonial = (props) => {
         alt={props.testimonial.author}
       />
       <p>{props.testimonial.text}</p>
-      <h6>{props.testimonial.author}</h6>
-      <span>{props.testimonial.authorPosition}</span>
+      <h6 className="addnotation-big">{props.testimonial.author}</h6>
+      <span className="addnotation-small">
+        {props.testimonial.authorPosition}
+      </span>
     </div>
   );
 };

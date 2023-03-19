@@ -6,9 +6,9 @@ const SectionWithImage = (props) => {
   return (
     <div className="feature--text-and-img">
       <img src={`${getImgUrl(props.feature.image, windowSize)}`} />
-      <h2>{props.feature.name}</h2>
+      <h2 className="heading">{props.feature.name}</h2>
       <p>{props.feature.text}</p>
-      <button>Learn more</button>
+      <button className="button-text">Learn more</button>
     </div>
   );
 };
