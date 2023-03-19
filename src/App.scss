@@ -1,0 +1,13 @@
+@use './common/variables' as var;
+
+@import "./common/typography";
+@import "./common/layout";
+@import "./components/components/common/footer";
+@import "./components/components/common/navBar";
+
+@import "./components/containers/testimonials";
+@import "./components/containers/sectionBackgroundImg";
+@import "./components/containers/sectionFourImages";
+@import "./components/containers/sectionWithImage";
+
+@import "./pages/main/main";
