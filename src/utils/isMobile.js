@@ -1,6 +1,8 @@
+import { PHONE_WIDTH } from "./global_variables";
+
 function isMobile() {
   if (
-    window.innerWidth < 400 ||
+    window.innerWidth < PHONE_WIDTH ||
     navigator.userAgent.match(/Android/i) ||
     navigator.userAgent.match(/webOS/i) ||
     navigator.userAgent.match(/iPhone/i) ||

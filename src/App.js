@@ -1,5 +1,5 @@
-import NavBar from "./common/NavBar";
-import Footer from "./common/Footer";
+import NavBar from "./components/components/common/NavBar";
+import Footer from "./components/components/common/Footer";
 import Main from "./pages/main/Main";
 
 function App() {

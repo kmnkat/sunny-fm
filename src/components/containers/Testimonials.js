@@ -1,4 +1,4 @@
-import Testimonial from "../components/Testimonial";
+import Testimonial from "../components/specific/Testimonial";
 import testimonials from "../../pseudodatabase/testimonials.json";
 
 const Testimonials = () => {
