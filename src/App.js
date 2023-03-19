@@ -2,6 +2,8 @@ import NavBar from "./components/components/common/NavBar";
 import Footer from "./components/components/common/Footer";
 import Main from "./pages/main/Main";
 
+import useWindowSize from "./utils/useWindowSize";
+
 function App() {
   return (
     <div className="app">
