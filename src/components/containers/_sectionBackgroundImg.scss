@@ -1,0 +1,27 @@
+@use '../../common/variables' as var;
+
+.feature-background-img {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px var.$padding-mobile-lr;
+  .feature__copytext {
+    align-self: flex-end;
+    p {
+      text-align: center;
+      padding: var.$font-size-body 0;
+    }
+  }
+  &--cyan {
+    h2,
+    p {
+      color: var.$primary-text-cyan-dark-desaturated;
+    }
+  }
+  &--blue {
+    h2,
+    p {
+      color: var.$primary-blue-dark-text-photo;
+    }
+  }
+}

@@ -7,10 +7,10 @@ const MiniGallery = (props) => {
   const firstImg = "image-gallery-milkbottles.jpg";
   const secondImg = "image-gallery-orange.jpg";
   const thirdImg = "image-gallery-cone.jpg";
-  const fourthImg = "image-gallery-sugarcubes.jpg";
+  const fourthImg = "image-gallery-sugarscubes.jpg";
 
   return (
-    <div>
+    <div className="section-four-imgs">
       <img src={`${getImgUrl(firstImg, windowSize)}`} alt={firstImg} />
       <img src={`${getImgUrl(secondImg, windowSize)}`} alt={secondImg} />
       <img src={`${getImgUrl(thirdImg, windowSize)}`} alt={thirdImg} />

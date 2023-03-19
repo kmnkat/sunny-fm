@@ -7,12 +7,12 @@ const HeroSection = (props) => {
 
   return (
     <div
-      className="hero-section"
+      className="hero-section bckground-cover"
       style={{
         backgroundImage: `url(${getImgUrl(props.imgUrl, windowSize)})`,
         height: isMobile()
-          ? windowSize * (375 / 340)
-          : windowSize / (640 / 1440),
+          ? windowSize * (540 / 375)
+          : windowSize * (1440 / 640),
         maxHeight: "640px",
       }}
     >

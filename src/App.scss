@@ -4,10 +4,11 @@
 @import "./common/layout";
 @import "./components/components/common/footer";
 @import "./components/components/common/navBar";
+@import "./common/elements";
 
 @import "./components/containers/testimonials";
 @import "./components/containers/sectionBackgroundImg";
-@import "./components/containers/sectionFourImages";
 @import "./components/containers/sectionWithImage";
+@import "./components/containers/miniGallery";
 
 @import "./pages/main/main";

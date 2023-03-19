@@ -59,3 +59,11 @@
     letter-spacing: -0.1px;
   }
 }
+
+a,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}

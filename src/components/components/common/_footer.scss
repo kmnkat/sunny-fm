@@ -1,0 +1,43 @@
+@use '../../../common/variables' as var;
+
+.footer {
+  background-color: var.$primary-cyan-light-moderate-footer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px var.$padding-mobile-lr;
+  svg {
+    fill: var.$primary-cyan-moderate-footer;
+    display: inline;
+  }
+  &__links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    & > * {
+      padding: 10px;
+    }
+    a,
+    a:link,
+    a:active {
+      color: var.$primary-cyan-dark-moderate-footer;
+    }
+    a:hover {
+      color: var.$secondary-white;
+    }
+  }
+  &__socials {
+    display: flex;
+    flex-direction: row;
+    svg {
+      margin: calc(var.$padding-mobile-lr / 2);
+      margin: 10px 15px;
+    }
+    svg:hover {
+      fill: var.$secondary-white;
+      cursor: pointer;
+    }
+  }
+}

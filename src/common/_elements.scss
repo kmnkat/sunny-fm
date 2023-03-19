@@ -1,0 +1,40 @@
+@use './variables' as var;
+
+.btn-main {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    width: calc(100% + 20px);
+    content: " ";
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  &--pink {
+    &::before {
+      background-color: var.$primary-red-soft;
+    }
+  }
+
+  &--yellow {
+    &::before {
+      background-color: var.$primary-yellow;
+    }
+  }
+
+  &:hover {
+    &::before {
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+  }
+}

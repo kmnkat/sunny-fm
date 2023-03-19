@@ -3,7 +3,7 @@ import testimonials from "../../pseudodatabase/testimonials.json";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="testimonials">
       <h4 className="heading-secondary">Client testimonials</h4>
       {testimonials.map((testimonial) => (
         <Testimonial
