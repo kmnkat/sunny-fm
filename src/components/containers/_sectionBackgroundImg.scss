@@ -4,12 +4,15 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding: 20px var.$padding-mobile-lr;
+  padding: var.$padding-mobile-lr;
   .feature__copytext {
     align-self: flex-end;
     p {
       text-align: center;
       padding: var.$font-size-body 0;
+      font-size: 16px;
+      margin-bottom: 1em;
+      letter-spacing: -0.4px;
     }
   }
   &--cyan {

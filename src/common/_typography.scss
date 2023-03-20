@@ -29,18 +29,19 @@
   line-height: 40px;
   text-align: center;
   letter-spacing: 1px;
-  color: var.$secondary-blue-grayish-very-dark;
+  color: var.$secondary-blue-dark-very-desaturated;
   &-secondary {
     text-transform: uppercase;
     font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
-    font-size: 1rem;
+    color: var.$secondary-blue-grayish-dark;
+    font-size: 16px;
     letter-spacing: 4.2px;
   }
 }
 
 .button-text {
   font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
-  font-weight: var.$font-weight-fraunces-bold;
+  font-weight: var.$secondary-blue-dark-very-desaturated;
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -51,7 +52,7 @@
     font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
     font-weight: var.$font-weight-fraunces-bold;
     font-size: 18px;
-    color: var.$secondary-blue-grayish-very-dark;
+    color: var.$secondary-blue-dark-very-desaturated;
   }
   &-small {
     font-size: 14px;
