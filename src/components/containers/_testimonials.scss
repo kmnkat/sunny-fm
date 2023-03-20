@@ -1,0 +1,27 @@
+@use '../../common/variables' as var;
+
+.testimonials {
+  padding: 60px var.$padding-mobile-lr;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  h4 {
+    margin-bottom: var.$padding-mobile-lr;
+  }
+  .testimonial {
+    margin-bottom: var.$padding-mobile-lr;
+    img {
+      border-radius: 50%;
+      max-width: 19vw;
+      margin: var.$padding-mobile-lr;
+    }
+    p {
+      color: var.$secondary-blue-grayish-very-dark;
+      margin-bottom: 1rem;
+    }
+    h6 {
+      margin-top: 20px;
+    }
+  }
+}

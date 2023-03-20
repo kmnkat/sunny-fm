@@ -1,3 +1,5 @@
+@use './variables' as var;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,15 @@
 }
 
 .app {
-  background-color: red;
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
+}
+
+.bckground-cover {
+  background-size: cover;
+}
+
+.img-full-width {
+  width: 100%;
 }

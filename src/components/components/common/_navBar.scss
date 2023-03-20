@@ -1,0 +1,14 @@
+@use '../../../common/variables' as var;
+
+.navbar {
+  position: absolute;
+  padding: 30px var.$padding-mobile-lr;
+  display: flex;
+  width: 100%;
+  embed {
+    margin-right: auto;
+    svg {
+      fill: var.$secondary-white;
+    }
+  }
+}
