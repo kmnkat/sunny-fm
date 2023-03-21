@@ -7,8 +7,8 @@
   padding: var.$padding-mobile-lr;
   .feature__copytext {
     align-self: flex-end;
+    text-align: center;
     p {
-      text-align: center;
       padding: var.$font-size-body 0;
       font-size: 16px;
       margin-bottom: 1em;
@@ -25,6 +25,15 @@
     h2,
     p {
       color: var.$primary-blue-dark-text-photo;
+    }
+  }
+  @include lg {
+    justify-content: center;
+    img {
+      max-height: var.$max-height-feature-desktop;
+    }
+    .feature__copytext {
+      max-width: 50%;
     }
   }
 }

@@ -34,7 +34,28 @@
   &:hover {
     &::before {
       opacity: 1;
-      transition: opacity 0.3s ease;
+      transition: opacity 0.3s ease-in-out;
     }
+  }
+}
+
+.btn-secondary {
+  border: none;
+  min-width: 140px;
+  min-height: 56px;
+  border-radius: 32px;
+  background-color: var.$secondary-white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    .button-text--secondary {
+      color: var.$secondary-white;
+      transition: color 0.3s ease-in-out 0.2s;
+    }
+
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease-in-out;
   }
 }

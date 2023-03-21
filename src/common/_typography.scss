@@ -20,6 +20,9 @@
   line-height: 48px;
   text-align: center;
   letter-spacing: 7px;
+  @include lg {
+    font-size: 60px;
+  }
 }
 
 .heading {
@@ -27,24 +30,42 @@
   font-weight: var.$font-weight-fraunces-bold;
   font-size: 32px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: 1px;
   color: var.$secondary-blue-dark-very-desaturated;
   &-secondary {
     text-transform: uppercase;
     font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
-    color: var.$secondary-blue-grayish-dark;
+    color: var.$secondary-blue-grayish;
     font-size: 16px;
     letter-spacing: 4.2px;
+  }
+  @include lg {
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+    &-secondary {
+      font-size: 20px;
+      letter-spacing: 5.2px;
+    }
   }
 }
 
 .button-text {
   font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
-  font-weight: var.$secondary-blue-dark-very-desaturated;
+  color: var.$secondary-blue-dark-very-desaturated;
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  &--secondary {
+    font-family: "Fraunces", Georgia, "Times New Roman", Times, serif;
+    color: var.$secondary-blue-dark-very-desaturated;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    a:link {
+      color: var.$secondary-blue-dark-very-desaturated;
+    }
+  }
 }
 
 .addnotation {

@@ -4,11 +4,27 @@
   position: absolute;
   padding: 30px var.$padding-mobile-lr;
   display: flex;
+  align-items: center;
   width: 100%;
-  embed {
-    margin-right: auto;
-    svg {
-      fill: var.$secondary-white;
+  a {
+    color: var.$secondary-white;
+    &:hover {
+      color: var.$primary-blue-dark-text-photo;
+      transition: all 0.3s ease-in-out;
     }
+  }
+
+  svg {
+    fill: var.$secondary-white;
+    transform: scale(1.2);
+  }
+  &__links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+  @include lg {
+    padding: 30px 46px;
   }
 }

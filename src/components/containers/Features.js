@@ -1,13 +1,10 @@
 import features from "../../pseudodatabase/features.json";
-import useWindowSize from "../../utils/useWindowSize";
 import SectionBackgroundImg from "./SectionBackgroundImg";
 import SectionWithImage from "./SectionWithImage";
 
 const Features = () => {
-  const windowSize = useWindowSize();
-
   return (
-    <div>
+    <div className="features">
       {features.map((feature) =>
         feature.config === "background-image" ? (
           <SectionBackgroundImg

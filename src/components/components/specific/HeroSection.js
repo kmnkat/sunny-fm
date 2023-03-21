@@ -12,8 +12,8 @@ const HeroSection = (props) => {
         backgroundImage: `url(${getImgUrl(props.imgUrl, windowSize)})`,
         height: isMobile()
           ? windowSize * (540 / 375)
-          : windowSize * (1440 / 640),
-        maxHeight: "640px",
+          : windowSize * (800 / 1440),
+        maxHeight: isMobile() ? "640px" : "800px",
       }}
     >
       <h1 className="motto">{props.title}</h1>

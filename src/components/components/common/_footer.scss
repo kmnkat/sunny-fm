@@ -9,6 +9,7 @@
   svg {
     fill: var.$primary-cyan-moderate-footer;
     display: inline;
+    transform: scale(1.2);
   }
   &__links {
     width: 100%;
@@ -38,6 +39,11 @@
     svg:hover {
       fill: var.$secondary-white;
       cursor: pointer;
+    }
+  }
+  @include lg {
+    &__links {
+      max-width: 20%;
     }
   }
 }

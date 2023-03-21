@@ -4,14 +4,16 @@
     "text": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
     "image": "image-transform.jpg",
     "config": "with-image",
-    "color": "yellow"
+    "color": "yellow",
+    "textBoxAlign": "left"
   },
   {
     "name": "Stand out to the right audience",
     "text": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.",
     "image": "image-stand-out.jpg",
     "config": "with-image",
-    "color": "pink"
+    "color": "pink",
+    "textBoxAlign": "right"
   },
   {
     "name": "Graphic design",

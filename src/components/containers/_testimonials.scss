@@ -8,13 +8,16 @@
   margin-bottom: 0.5rem;
   h4 {
     margin-bottom: var.$padding-mobile-lr;
+    grid-column: span 3;
+    text-align: center;
   }
   .testimonial {
     margin-bottom: var.$padding-mobile-lr;
     img {
       border-radius: 50%;
-      max-width: 19vw;
+      width: 19vw;
       margin: var.$padding-mobile-lr;
+      max-width: 72px;
     }
     p {
       color: var.$secondary-blue-grayish-very-dark;
@@ -22,6 +25,23 @@
     }
     h6 {
       margin-top: 20px;
+    }
+  }
+  @include lg {
+    display: grid;
+    grid-template-columns: reapeat(3, 1fr);
+    grid-template-rows: auto auto;
+    padding: var.$padding-desktop-lr;
+    margin: var.$margin-desktop-sm;
+
+    .testimonial {
+      p {
+        padding: 0 0.75rem;
+        margin-bottom: 60px;
+      }
+      img {
+        margin: 56px;
+      }
     }
   }
 }

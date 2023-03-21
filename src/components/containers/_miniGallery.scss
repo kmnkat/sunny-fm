@@ -5,4 +5,8 @@
   img {
     width: 100%;
   }
+  @include lg {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
 }

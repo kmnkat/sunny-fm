@@ -1,4 +1,5 @@
 @use './common/variables' as var;
+@import "./common//mediaQueries";
 
 @import "./common/typography";
 @import "./common/layout";
